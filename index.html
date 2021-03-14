@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset ="UTF-8">
+    <meta http-equiv ="X-UA-Compatible" content ="IE=edge">
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Libre+Baskerville&display=swap" rel="stylesheet">    
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class = "textBox">
+            <input type ="text" id ="searchBar" placeholder ="Search for a Movie Title...">
+            <button type ="button" class="submitButt" onclick ="search()">Search</button>
+        </div>
+    </header>
+
+    <div id="error" class="hide"></div>
+
+    <div id = "resultBox" class="hide">
+
+        <div id = "titleBox"></div>
+        <div id = "timeBox"></div>
+        <div id = "imageBox"></div>
+        <div id = "yearBox"></div>
+        
+
+        <div class = "header">
+                Content Rating:<span id="rating"><div id = "ratingBox"></div></span>
+        </div>
+        <div class = "header">
+                Directed By<span><div id = "directorsBox"></div></span>
+        </div>
+
+        <div class = "header">
+                Written By<span><div id = "writersBox"></div></span>
+        </div>
+
+        <div class = "header">
+                Main Cast<span><div id = "starsBox"></div></span>
+        </div>
+
+        <div class = "header">
+                Genre<span><div id = "genresBox"></div></span>
+        </div>
+
+        <div class = "header">
+                Plot<span><div id = "plotBox"></div></span>
+        </div>
+
+
+    </div>
+
+    <script src = "index.js"></script>
+
+</body>
+</html>
