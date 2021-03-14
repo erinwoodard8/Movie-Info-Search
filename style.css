@@ -6,18 +6,26 @@ body {
 .textBox {
     display: flex;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 50px;
     justify-content: center;
 }
+
 
 #searchBar {
     padding: 25px;
     width: 50%;
     height: 25px;
     font-family: 'Libre Baskerville', serif;
-    border: none;
     font-size: 25px;
+    border-color: #F57D7C;
+    outline: none;
+    border-style: solid;
+    background-color: #fff3e6;
 }
+
+
+
+
 
 .submitButt {
     padding: 7px;
@@ -71,6 +79,7 @@ img {
     justify-content: center;
     margin: auto;
     margin-top: 50px;
+    padding: 20px;
     font-size: 60px;
     width: 100%;
     text-align: center;
@@ -78,6 +87,8 @@ img {
     background-color: #FFC1A6;
     color: #4b4969;
 }
+
+
 
 #timeBox {
     display: flex;
