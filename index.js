@@ -42,7 +42,7 @@ var myResults = function (response) {
         let movieId = resultArr[0]["id"]; //takes the id value from the search() response of the item at position 0
         let detailsReq = new XMLHttpRequest(); //creating a new http request to send to the movie api
 
-        detailsReq.open('GET', 'https://imdb-api.com/en/API/Title/k_2whi6r49/' + movieId, true); //request to the api using the id value 
+        detailsReq.open('GET', 'https://imdb-api.com/en/API/Title/k_7mrq9eci/' + movieId, true); //request to the api using the id value 
 
         detailsReq.onload = function () {
             if (detailsReq.status == 200) { //make sure the request was successful
@@ -75,7 +75,7 @@ function search() {
     document.getElementById("searchBar").value = "";  // clears the search bar
 
 
-    idRequest.open('GET', 'https://imdb-api.com/en/API/SearchMovie/k_2whi6r49/' + title, true);  // requesting the movie title from the api so I can get the id
+    idRequest.open('GET', 'https://imdb-api.com/en/API/SearchMovie/k_7mrq9eci/' + title, true);  // requesting the movie title from the api so I can get the id
 
     idRequest.onload = function () {
         
