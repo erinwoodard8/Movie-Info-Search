@@ -29,6 +29,7 @@ var display = function (response) {  //This function is responsible for displayi
 
 };
 
+// IF THE RESPONSE IS NULL YOU NEED TO USE A DIFFERENT API KEY BECAUSE OF THE REQUEST LIMIT (k_2whi6r49 OR k_sf4k7xi2)
 
 var myResults = function (response) {
     let apiResp = JSON.parse(response); //turns web server data from a string to a JS object
